@@ -1,0 +1,13 @@
+[15-Sep-2022 09:23:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:23:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:23:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:23:52 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/viswatec/public_html/mano register login/registration.php:16
+Stack trace:
+#0 /home/viswatec/public_html/mano register login/registration.php(16): mysqli_real_escape_string()
+#1 {main}
+  thrown in /home/viswatec/public_html/mano register login/registration.php on line 16
+[15-Sep-2022 09:38:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:56:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'viswatec_mano'@'localhost' (using password: YES) in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:56:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'viswatec_mano'@'localhost' to database 'viswatech_LoginSystem' in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:56:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'viswatec_mano'@'localhost' to database 'viswatech_LoginSystem' in /home/viswatec/public_html/mano register login/db.php on line 4
+[15-Sep-2022 09:56:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'viswatec_mano'@'localhost' to database 'viswatech_LoginSystem' in /home/viswatec/public_html/mano register login/db.php on line 4
